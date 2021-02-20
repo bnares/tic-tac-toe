@@ -25,6 +25,15 @@ __published:	// IDE-managed Components
         TImage *tura;
         TButton *Button1;
         void __fastcall FormCreate(TObject *Sender);
+        void __fastcall pole1Click(TObject *Sender);
+        void __fastcall pole2Click(TObject *Sender);
+        void __fastcall pole3Click(TObject *Sender);
+        void __fastcall pole4Click(TObject *Sender);
+        void __fastcall pole5Click(TObject *Sender);
+        void __fastcall pole6Click(TObject *Sender);
+        void __fastcall pole7Click(TObject *Sender);
+        void __fastcall pole8Click(TObject *Sender);
+        void __fastcall pole9Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);
