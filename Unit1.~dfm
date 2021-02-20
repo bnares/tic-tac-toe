@@ -15,11 +15,12 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object pole1: TImage
-    Left = 24
+    Left = 40
     Top = 48
     Width = 100
     Height = 100
     Cursor = crHandPoint
+    OnClick = pole1Click
   end
   object pole2: TImage
     Left = 136
@@ -27,55 +28,63 @@ object Form1: TForm1
     Width = 100
     Height = 100
     Cursor = crHandPoint
+    OnClick = pole2Click
   end
   object pole3: TImage
-    Left = 240
+    Left = 232
     Top = 48
     Width = 100
     Height = 100
     Cursor = crHandPoint
+    OnClick = pole3Click
   end
   object pole4: TImage
-    Left = 24
-    Top = 152
+    Left = 40
+    Top = 144
     Width = 100
     Height = 100
     Cursor = crHandPoint
+    OnClick = pole4Click
   end
   object pole5: TImage
     Left = 136
-    Top = 152
+    Top = 144
     Width = 100
     Height = 100
     Cursor = crHandPoint
+    OnClick = pole5Click
   end
   object pole6: TImage
-    Left = 240
-    Top = 152
+    Left = 232
+    Top = 144
     Width = 100
     Height = 100
     Cursor = crHandPoint
+    OnClick = pole6Click
   end
   object pole7: TImage
-    Left = 24
-    Top = 256
+    Left = 40
+    Top = 240
     Width = 100
     Height = 100
     Cursor = crHandPoint
+    OnClick = pole7Click
   end
   object pole8: TImage
     Left = 136
-    Top = 256
+    Top = 240
     Width = 100
     Height = 100
     Cursor = crHandPoint
+    OnClick = pole8Click
   end
   object pole9: TImage
-    Left = 240
-    Top = 256
+    Left = 232
+    Top = 240
     Width = 100
     Height = 100
     Cursor = crHandPoint
+    OnClick = pole9Click
   end
   object Label1: TLabel
     Left = 360
@@ -91,8 +100,8 @@ object Form1: TForm1
     ParentFont = False
   end
   object tura: TImage
-    Left = 544
-    Top = 64
+    Left = 536
+    Top = 72
     Width = 30
     Height = 30
   end

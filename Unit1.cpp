@@ -63,6 +63,16 @@ void __fastcall TForm1::FormCreate(TObject *Sender)
       p4 = 'n'; p5 = 'n'; p6 = 'n';
       p7 = 'n'; p8 = 'n'; p9 = 'n';
       kto = 'o';
+
+      pole1 -> Enabled =true;
+      pole2 -> Enabled =true;
+      pole3 -> Enabled =true;
+      pole4 -> Enabled =true;
+      pole5 -> Enabled =true;
+      pole6 -> Enabled =true;
+      pole7 -> Enabled =true;
+      pole8 -> Enabled =true;
+      pole9 -> Enabled =true;
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::pole1Click(TObject *Sender)
